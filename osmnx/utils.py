@@ -103,6 +103,10 @@ def config(data_folder=settings.data_folder,
         HTTP header referer
     default_accept_language : string
         HTTP header accept-language
+    nominatim_endpoint: string
+        URL endpoint of the Nominatim instance to use, default is OSM's
+    nominatim_key: string
+        The API key to use in the case of commercial instances of Nominatim
 
     Returns
     -------
